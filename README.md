@@ -1,6 +1,13 @@
 # The Speech-To-Text Chain
 
-Notes documenting the various components that affect accuracy in ASR (Automatic Speech Recognition) workflows.
+By: Daniel Rosehill
+Date: Dec 09, 2025
+
+The purpose of this collection of notes is to provide an enumeration of the different factors that in my experience make the difference between partial and higher levels of success in speech to text workflows. 
+
+What I've learned over the course of using speech to text intensively and daily for just over a year now is that the ultimate word error rate or accuracy of ASR is a composite of factors rather than just about using a better model. 
+
+I thought it would be useful to enumerate these and to try to order them in a "chain." The practical application for this is informing the design and development of a couple of ASR projects that I'm working on. 
 
 ## The Chain
 
