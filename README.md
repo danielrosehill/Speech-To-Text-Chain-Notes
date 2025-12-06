@@ -7,7 +7,7 @@ The purpose of this collection of notes is to provide an enumeration of the diff
 
 What I've learned over the course of using speech to text intensively and daily for just over a year now is that the ultimate word error rate or accuracy of ASR is a composite of factors rather than just about using a better model. 
 
-It's also possible to achieve high levels of accuracy with a relatively small models by attempting to improve some of these constituent elements. 
+What I've also learned: it's possible to achieve high levels of accuracy with relatively small models by attempting to improve some of these constituent elements. This is particularly important and relevant when trying to achieve performant ASR on devices with limited compute, such as embedded hardware. 
 
 For example:
 
