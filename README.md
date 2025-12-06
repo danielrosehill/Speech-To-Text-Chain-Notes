@@ -5,7 +5,7 @@ Notes documenting the various components that affect accuracy in ASR (Automatic 
 ## The Chain
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[1. Speaker] --> B[2. Noise Environment]
     B --> C[3. Microphone]
     C --> D[4. Mic Positioning]
