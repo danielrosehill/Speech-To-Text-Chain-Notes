@@ -7,6 +7,16 @@ The purpose of this collection of notes is to provide an enumeration of the diff
 
 What I've learned over the course of using speech to text intensively and daily for just over a year now is that the ultimate word error rate or accuracy of ASR is a composite of factors rather than just about using a better model. 
 
+It's also possible to achieve high levels of accuracy with a relatively small models by attempting to improve some of these constituent elements. 
+
+For example:
+
+- Fine tune a small model on your vocabulary and speech to get outsized accuracy.  
+- Add a noise cleanup as a post processing workflow before setting it for a transcription.  
+- Record in a better environment and with a better microphone.  
+
+This applies across the range of ASR applications. 
+
 I thought it would be useful to enumerate these and to try to order them in a "chain." The practical application for this is informing the design and development of a couple of ASR projects that I'm working on. 
 
 ## The Chain
